@@ -14,7 +14,6 @@ MATLAB (version R2026b (26.2.0.3386108)) using Live Scripts.
 
 ## Repository structure
 - 'scripts/' - MATLAB live scrips containing the analysis
-- 'results/' - generated intermediate/result files
 - 'figures/' - exported figures
 
 ## Running the analysis
@@ -28,6 +27,14 @@ Run the MATLAB Live Scripts in the following order:
 5. `survival_models_05.mlx`
 
 The first script imports and cleans the datasets and saves `results/cleaned_data.mat`, which is loaded by the subsequent scripts.
+
+## Generated results
+
+Intermediate result files are not stored in the repository because they are generated from the source data.
+
+Running `data_processing_01.mlx` creates:
+
+`results/cleaned_data.mat`
 
 ## Data
 
